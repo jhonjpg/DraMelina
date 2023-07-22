@@ -1,0 +1,252 @@
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(198 196 204);
+    padding-top: 3em;
+    background-color: black;
+}
+
+article strong {
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    /* background: radial-gradient(black, rgb(51, 51, 51)); */
+    background: radial-gradient( #313131, black);
+}
+
+.performanceP {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fronP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-image: url("https://cdn.pixabay.com/photo/2018/07/06/11/06/belly-3520191_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fronP strong {
+    font-size: 35px;
+    color: white;
+}
+
+.performanceP {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.performanceP label {
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    border-bottom: 3px solid #0eaee0;
+    padding-bottom: 0.7em !important;
+    margin-bottom: 10px !important;
+}
+
+.performanceP h4 {
+    font-size: 25px;
+    color: #0eaee0;
+}
+
+.performanceP ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 390px;
+    background-color: white;
+    padding: 1em;
+}
+
+.performanceP li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    background-color: white;
+    padding: 1em;
+}
+
+.performanceP li div {
+    width: 70%;
+    background-color: #0eaee0;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.performanceP li button {
+    width: 40%;
+    background-color: #0eaee0;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    color: white;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 340px;
+    background-image: linear-gradient(163deg, #fa6232 0%, #592b78 100%);
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.carta2 {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    transition: all .2s;
+    border-radius: 30px;
+    transform: scale(0.98);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.carta2:hover {
+    transform: scale(0.98);
+}
+
+.carta:hover {
+    box-shadow: 0px 0px 30px 1px #fa6232;
+}
+
+
+/* article li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 3px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+} */
+
+
+/* article li h1 {
+    font-size: 27px;
+    color: black;
+} */
+
+article h3 {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+article li p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+article li i {
+    color: green;
+}
+
+
+/* information */
+
+.headerInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 4em !important;
+}
+
+.headerInfo article {
+    width: 75%;
+    height: 200px;
+    font-size: 2em;
+    color: white;
+}
+
+.headerInfo h2 {
+    font-size: 1.4em !important;
+    z-index: 2;
+}
+
+.headerInfo article img {
+    position: absolute;
+}
+
+.headerInfo p {
+    width: 75%;
+}
+
+.headerInfo strong {
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.headerInfo ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 1em !important;
+}
+
+.diferences {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em !important;
+    gap: 20px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.diferences div {
+    width: 100%;
+    height: 100%;
+}
