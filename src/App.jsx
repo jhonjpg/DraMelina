@@ -1,4 +1,5 @@
 
+import React from 'react'
 import Auth from './routes/Auth';
 
 
@@ -8,12 +9,10 @@ function App() {
   return (
 
     <>
-    <div className="App">
 
 
 <Auth/>
 
-    </div>
 
   </>
   )
