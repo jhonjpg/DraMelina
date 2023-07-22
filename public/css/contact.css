@@ -1,0 +1,332 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 6em 1em 1em !important;
+    gap: 36px;
+}
+
+.contacto i {
+    font-size: 3em;
+    color: #00acee;
+}
+
+.contacto label {
+    font-size: 2em;
+}
+
+.contacto p {
+    color: rgb(167, 167, 167);
+}
+
+.contacto strong {
+    color: #0087bd;
+}
+
+.generalInf {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: white;
+    padding: 10px !important;
+    color: black;
+}
+
+.generalInf label {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.generalInf strong {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: #00acee;
+    text-align: center;
+}
+
+.generalInf p {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: black;
+    text-align: center;
+}
+
+
+/* contact */
+
+.formu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 1em !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=800");
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 1em !important;
+}
+
+form h6 {
+    font-size: 2em;
+    color: white;
+}
+
+form input {
+    width: 70%;
+    font-size: 16px;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 10px !important;
+    background: white;
+    border: 1px solid #00acee;
+}
+
+textarea {
+    border: 1px solid #00acee;
+    color: #000;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+    background-color: white;
+    margin-bottom: 10px !important;
+}
+
+form a:hover {
+    background: #03f40f;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03f40f, 0 0 25px #03f40f, 0 0 50px #03f40f, 0 0 100px #03f40f;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+    background-image: url("../img/citas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: hue-rotate(20deg);
+}
+
+.contactDiv h6 {
+    font-size: 3em;
+}
+
+.cartaContact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.7em !important;
+}
+
+.contactDiv h4 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contactDiv p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contactDiv strong {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form a {
+    width: 60%;
+    font-size: 1em;
+    padding: 0.7em !important;
+    border-radius: 20px;
+    background-color: #0eaee0;
+    color: white;
+    text-decoration: none;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0 auto;
+}
+
+.socialNet {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 100%;
+    gap: 20px;
+}
+
+
+/* for all social containers*/
+
+.socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+
+
+/* instagram*/
+
+.containerOne {
+    background-color: #d62976;
+    transition-duration: .3s;
+}
+
+
+/* twitter*/
+
+.containerTwo {
+    background-color: #00acee;
+    transition-duration: .3s;
+}
+
+
+/* linkdin*/
+
+.containerThree {
+    background-color: #0072b1;
+    transition-duration: .3s;
+}
+
+
+/* Whatsapp*/
+
+.containerFour {
+    background-color: #128C7E;
+    transition-duration: .3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialSvg {
+    width: 17px;
+}
+
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.ubicacion {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em !important;
+    background-color: rgb(226, 226, 226);
+    gap: 20px;
+}
+
+.ubica {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em !important;
+    gap: 20px;
+}
+
+.ubica h5 {
+    text-align: center;
+}
+
+.ubi i {
+    font-size: 1.5em;
+    color: #0072b1;
+    padding-right: 10px !important;
+}
+
+.ubi p {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
