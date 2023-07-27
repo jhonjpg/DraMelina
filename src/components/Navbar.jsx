@@ -32,11 +32,11 @@ const toggle = `togglingOff ${toggleOn ? "togglingMenu" : ""}`
 </div>
 
     <ul className={toggle}>
-    <li className="nav-item"> <Link exact="true" to="/dra-Melina/" activeclassname="active" >  Home</Link></li>
-         <li className="nav-item"> <Link to="/dra-Melina/doctor"  >  Doctora</Link></li>
-         <li className="nav-item"> <Link to="/dra-Melina/procedimientos"  > Procedimientos</Link></li>
-         <li className="nav-item"> <Link to="/dra-Melina/testimonios" >  Testimonios</Link></li>
-         <li className="nav-item"> <Link to="/dra-Melina/contact" >  Contacto</Link></li>
+    <li className="nav-item"> <Link exact="true" to="/DraMelina/" activeclassname="active" >  Home</Link></li>
+         <li className="nav-item"> <Link to="/DraMelina/doctor"  >  Doctora</Link></li>
+         <li className="nav-item"> <Link to="/DraMelina/procedimientos"  > Procedimientos</Link></li>
+         <li className="nav-item"> <Link to="/DraMelina/testimonios" >  Testimonios</Link></li>
+         <li className="nav-item"> <Link to="/DraMelina/contact" >  Contacto</Link></li>
 
 
        </ul>
@@ -64,11 +64,11 @@ const toggle = `togglingOff ${toggleOn ? "togglingMenu" : ""}`
 
 
     <ul className="">
-    <li className="nav-item"> <NavLink exact="true" to="/dra-Melina/" activeclassname="active" >  Home</NavLink></li>
-         <li className="nav-item"> <NavLink to="/dra-Melina/doctor"  >  Doctora</NavLink></li>
-         <li className="nav-item"> <NavLink to="/dra-Melina/Procedimientos"  > Procedimientos</NavLink></li>
-         <li className="nav-item"> <NavLink to="/dra-Melina/testimonios" >  Testimonios</NavLink></li>
-         <li className="nav-item"> <NavLink to="/dra-Melina/contact" >  Contacto</NavLink></li>
+    <li className="nav-item"> <NavLink exact="true" to="/DraMelina/" activeclassname="active" >  Home</NavLink></li>
+         <li className="nav-item"> <NavLink to="/DraMelina/doctor"  >  Doctora</NavLink></li>
+         <li className="nav-item"> <NavLink to="/DraMelina/Procedimientos"  > Procedimientos</NavLink></li>
+         <li className="nav-item"> <NavLink to="/DraMelina/testimonios" >  Testimonios</NavLink></li>
+         <li className="nav-item"> <NavLink to="/DraMelina/contact" >  Contacto</NavLink></li>
 
 
        </ul>

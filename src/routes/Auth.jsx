@@ -29,19 +29,19 @@ const Auth = () => {
       <Routes>
 
       <Route index element={<Home />}></Route>
-      <Route path="/dra-Melina/" element={<Home />}></Route>
-        <Route path="/dra-Melina/doctor" element={<Doctor />}></Route>
-        <Route path="/dra-Melina/procedimientos" element={<Performance />}></Route>
+      <Route path="/DraMelina/" element={<Home />}></Route>
+        <Route path="/DraMelina/doctor" element={<Doctor />}></Route>
+        <Route path="/DraMelina/procedimientos" element={<Performance />}></Route>
 
         {/* rutas performance */}
-        <Route path="/dra-Melina/procedimientos/lipoinyección" element={<Lipoinyección />}></Route>
-        <Route path="/dra-Melina/procedimientos/abdominoplastia" element={<Abdominoplastia />}></Route>
-        <Route path="/dra-Melina/procedimientos/lipoescultura" element={<Lipoescultura />}></Route>
-        <Route path="/dra-Melina/procedimientos/lipoabdominoplastia" element={<Lipoabdominoplastia />}></Route>
-        <Route path="/dra-Melina/procedimientos/brazilianButtLift" element={<BrazilianButtLift />}></Route>
+        <Route path="/DraMelina/procedimientos/lipoinyección" element={<Lipoinyección />}></Route>
+        <Route path="/DraMelina/procedimientos/abdominoplastia" element={<Abdominoplastia />}></Route>
+        <Route path="/DraMelina/procedimientos/lipoescultura" element={<Lipoescultura />}></Route>
+        <Route path="/DraMelina/procedimientos/lipoabdominoplastia" element={<Lipoabdominoplastia />}></Route>
+        <Route path="/DraMelina/procedimientos/brazilianButtLift" element={<BrazilianButtLift />}></Route>
 
-        <Route path="/dra-Melina/testimonios" element={<Testimonial />}></Route>
-        <Route path="/dra-Melina/contact" element={<Contact />}></Route>
+        <Route path="/DraMelina/testimonios" element={<Testimonial />}></Route>
+        <Route path="/DraMelina/contact" element={<Contact />}></Route>
 
         <Route path="*" element={<PageNotFound />}></Route>
 

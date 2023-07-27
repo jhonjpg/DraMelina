@@ -47,7 +47,7 @@ const Performance = () => {
 
     <Link
   to={{
-    pathname: `/Dra-Melina/procedimientos/Lipoinyección`,
+    pathname: `/DraMelina/procedimientos/Lipoinyección`,
   }}
 >
   Ver más
@@ -74,7 +74,7 @@ const Performance = () => {
 
     <Link
   to={{
-    pathname: `/Dra-Melina/procedimientos/Abdominoplastia`,
+    pathname: `/DraMelina/procedimientos/Abdominoplastia`,
   }}
 >
   Ver más
@@ -100,7 +100,7 @@ const Performance = () => {
 
     <Link
   to={{
-    pathname: `/Dra-Melina/procedimientos/Lipoescultura`,
+    pathname: `/DraMelina/procedimientos/Lipoescultura`,
   }}
 >
   Ver más
@@ -124,7 +124,7 @@ const Performance = () => {
 
     <Link
   to={{
-    pathname: `/Dra-Melina/procedimientos/Lipoabdominoplastia`,
+    pathname: `/DraMelina/procedimientos/Lipoabdominoplastia`,
   }}
 >
   Ver más
@@ -149,7 +149,7 @@ const Performance = () => {
 
     <Link
   to={{
-    pathname: `/Dra-Melina/procedimientos/BrazilianButtLift`,
+    pathname: `/DraMelina/procedimientos/BrazilianButtLift`,
   }}
 >
   Ver más
