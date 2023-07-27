@@ -103,7 +103,7 @@ const Home = () => {
 
 
 
-<li ref={ref} className={inView ? 'estetica' : ''}> <div className="rounded-circle"> <img src="../img/face/face2.jpg" alt="" />  </div> 
+<li ref={ref} className={inView ? 'estetica' : ''}> <div className="rounded-circle"> <img src="img/face/face2.jpg" alt="" />  </div> 
     
     <h4>Perfil Facial Ideal</h4>
 
@@ -116,7 +116,7 @@ const Home = () => {
 
     <button><Link
   to={{
-    pathname: `/Dra-Melina/procedimientos`,
+    pathname: `/DraMelina/procedimientos`,
   }}
 >
 Ver Mas</Link></button>
@@ -124,7 +124,7 @@ Ver Mas</Link></button>
     </li>
    
 
-    <li ref={ref} className={inView ? 'estetica' : ''}> <div className="rounded-circle"> <img src="../img/figura/silueta.jpg" alt="" />  </div> 
+    <li ref={ref} className={inView ? 'estetica' : ''}> <div className="rounded-circle"> <img src="img/figura/silueta.jpg" alt="" />  </div> 
     
     <h4>Figura Perfecta</h4>
 
@@ -143,7 +143,7 @@ Ver Mas</Link></button>
 
     <button><Link
   to={{
-    pathname: `/Dra-Melina/procedimientos`,
+    pathname: `/DraMelina/procedimientos`,
   }}
 >
 Ver Mas</Link></button>
@@ -153,7 +153,7 @@ Ver Mas</Link></button>
 
 
 
-    <li ref={ref} className={inView ? 'estetica' : ''}> <div className="rounded-circle"> <img src="../img/sen/seno.jpg" alt="" />  </div> 
+    <li ref={ref} className={inView ? 'estetica' : ''}> <div className="rounded-circle"> <img src="img/sen/seno.jpg" alt="" />  </div> 
     
     <h4>Senos Más Bonitos
 </h4>
@@ -169,7 +169,7 @@ Ver Mas</Link></button>
 
 <button><Link
   to={{
-    pathname: `/Dra-Melina/procedimientos`,
+    pathname: `/DraMelina/procedimientos`,
   }}
 >
 Ver Mas</Link></button>

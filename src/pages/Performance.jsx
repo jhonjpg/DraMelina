@@ -36,7 +36,7 @@ const Performance = () => {
 
 <ul>
 
-<li> <div className="rounded-circle"> <img src="../img/figura/silueta.jpg" alt="" />  </div> 
+<li> <div className="rounded-circle"> <img src="img/figura/silueta.jpg" alt="" />  </div> 
     
     <h4>Lipoinyección
 </h4>
@@ -63,7 +63,7 @@ const Performance = () => {
 
 
 
-<li> <div className="rounded-circle"> <img src="../img/figura/silueta2.jpg" alt="" />  </div> 
+<li> <div className="rounded-circle"> <img src="img/figura/silueta2.jpg" alt="" />  </div> 
     
     <h4>Abdominoplastia
 </h4>
@@ -89,7 +89,7 @@ const Performance = () => {
 
 
 
-<li> <div className="rounded-circle"> <img src="../img/figura/silueta3.jpg" alt="" />  </div> 
+<li> <div className="rounded-circle"> <img src="img/figura/silueta3.jpg" alt="" />  </div> 
     
     <h4>Lipoescultura
 </h4>
@@ -113,7 +113,7 @@ const Performance = () => {
      
 
      
-<li> <div className="rounded-circle"> <img src="../img/figura/silueta4.jpg" alt="" />  </div> 
+<li> <div className="rounded-circle"> <img src="img/figura/silueta4.jpg" alt="" />  </div> 
     
     <h4>Lipoabdominoplastia
 </h4>
@@ -138,7 +138,7 @@ const Performance = () => {
 
 
      
-    <li> <div className="rounded-circle"> <img src="../img/figura/silueta5.jpg" alt="" />  </div> 
+    <li> <div className="rounded-circle"> <img src="img/figura/silueta5.jpg" alt="" />  </div> 
     
     <h4>Brazilian Butt Lift
 </h4>
@@ -170,7 +170,7 @@ const Performance = () => {
 
 
 
-<li> <div className="rounded-circle"> <img src="../img/sen/seno.jpg" alt="" />  </div> 
+<li> <div className="rounded-circle"> <img src="img/sen/seno.jpg" alt="" />  </div> 
     
     <h4>Levantamiento Mamario
 
@@ -187,7 +187,7 @@ const Performance = () => {
     </li>
    
 
-    <li> <div className="rounded-circle"> <img src="../img/sen/senos2.jpg" alt="" />  </div> 
+    <li> <div className="rounded-circle"> <img src="img/sen/senos2.jpg" alt="" />  </div> 
     
     <h4>Aumento Mamario
 </h4>
@@ -201,7 +201,7 @@ const Performance = () => {
     </li>
 
 
-    <li> <div className="rounded-circle"> <img src="../img/sen/senos3.jpg" alt="" />  </div> 
+    <li> <div className="rounded-circle"> <img src="img/sen/senos3.jpg" alt="" />  </div> 
     
     <h4>Reducción Mamaria
 </h4>
@@ -225,7 +225,7 @@ const Performance = () => {
 
 
 
-<li> <div className="rounded-circle"> <img src="../img/face/face.jpg" alt="" />  </div> 
+<li> <div className="rounded-circle"> <img src="img/face/face.jpg" alt="" />  </div> 
     
     <h4>Blefaroplastia
 
@@ -241,7 +241,7 @@ const Performance = () => {
     </li>
    
 
-    <li> <div className="rounded-circle"> <img src="../img/face/face3.jpg" alt="" />  </div> 
+    <li> <div className="rounded-circle"> <img src="img/face/face3.jpg" alt="" />  </div> 
 
     <h4>Rinoplastia
 </h4>
@@ -255,7 +255,7 @@ const Performance = () => {
     </li>
 
 
-    <li> <div className="rounded-circle"> <img src="../img/face/face2.jpg" alt="" />  </div> 
+    <li> <div className="rounded-circle"> <img src="img/face/face2.jpg" alt="" />  </div> 
 
     <h4>Lifting Facial
 </h4>
