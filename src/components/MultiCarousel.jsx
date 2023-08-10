@@ -76,8 +76,31 @@ const MultiCarousel = () => {
 
 
 
-          resenas: ["Excelente servicio al cliente" , "El personal es muy amable y servicial.", "Los productos son de alta calidad.", "El ambiente es acogedor y agradable.", "El precio es razonable en comparación con otros lugares similares.", "La ubicación es conveniente y de fácil acceso.","Siempre hay promociones y descuentos disponibles." , "La comida es deliciosa y fresca.", "Los tiempos de espera son mínimos, incluso en horas pico.", "El lugar está muy bien decorado y diseñado.", "La rapidez y eficiencia del servicio son impresionantes.", "La variedad de opciones en el menú es genial, siempre hay algo nuevo por probar."]
-          
+          resenas: [
+            "Lipoinyección: Resultados asombrosos. Figura natural y contorneada. Totalmente segura ahora.",
+
+            "Levantamiento Mamario: Excedió mis expectativas. Senos juveniles y confianza restaurada.",
+            
+            "Reducción Mamaria: Gratitud total. Alivio del dolor, postura mejorada, vida más activa.",
+            
+            "Lipoabdominoplastia: Abdomen plano y tonificado. Emocionada por mi nueva apariencia.",
+            
+            "Lipoescultura: Transformación sorprendente. Figura natural y rejuvenecida. Recomendación total.",
+            
+            "Rinoplastia: Cambio de vida. Resultado adaptado perfectamente a mis rasgos. Seguridad restaurada.",
+            
+            "Lifting Facial: Rejuvenecimiento impactante. Habilidad y arte combinados para resultados sorprendentes." ,
+            "Aumento de Glúteos: Cambió mi confianza. Curvas naturales y resultado increíble.",
+
+"Blefaroplastia: Revivió mi mirada. Ojos rejuvenecidos y proceso sin problemas.",
+
+"Abdominoplastia: Nuevo comienzo. Abdomen firme y autoestima renovada."
+
+
+
+
+         
+          ]
 
         }
 

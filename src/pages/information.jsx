@@ -1,5 +1,4 @@
 import React, { useReducer, useState, useEffect } from 'react'
-import Navbar from '../components/Navbar'
 import Items from '../components/Items'
 
 const information = ({id}) => {
@@ -10,7 +9,6 @@ const information = ({id}) => {
   return (
 <>
 
-<Navbar/>
 
 <main className="headerInfo">
 

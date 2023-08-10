@@ -35,11 +35,11 @@ const Info = () => {
 
         <div className="diferences">
           <div className="">
-            <img src={img1} alt="" />
+            <img src="https://cdn.pixabay.com/photo/2021/02/05/20/46/weight-loss-5985844_1280.jpg" alt="" />
           </div>
 
           <div className="">
-            <img src={img2} alt="" />
+            <img src="https://cdn.pixabay.com/photo/2021/02/05/20/46/weight-loss-5985844_1280.jpg" alt="" />
           </div>
         </div>
       </main>

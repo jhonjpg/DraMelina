@@ -181,7 +181,17 @@ const Performance = () => {
 
 </p>
 
-    <button>Leer Mas</button>
+
+<button>     
+
+<Link
+to="/DraMelina/procedimientos/Levantamiento-mamario"
+>
+Ver más
+</Link>
+
+
+</button>
 
     
     </li>
@@ -195,7 +205,16 @@ const Performance = () => {
     <p>Procedimiento quirúrgico que se realiza para mejorar el tamaño y</p>
 
 
-    <button>Leer Mas</button>
+    <button>     
+
+<Link
+to="/DraMelina/procedimientos/aumento-mamario"
+>
+Ver más
+</Link>
+
+
+</button>
 
     
     </li>
@@ -210,7 +229,17 @@ const Performance = () => {
 </p>
 
 
-    <button>Leer Mas</button>
+
+<button>     
+
+<Link
+to="/DraMelina/procedimientos/reduccion-mamario"
+>
+Ver más
+</Link>
+
+
+</button>
 
     
     </li>
@@ -235,7 +264,17 @@ const Performance = () => {
     <p>El objetivo de la cirugía es de mejorar el aspecto y la forma de los párpados…
 </p>
 
-    <button>Leer Mas</button>
+
+<button>     
+
+<Link
+to="`/DraMelina/procedimientos/aumento-mamario`"
+>
+Ver más
+</Link>
+
+
+</button>
 
     
     </li>

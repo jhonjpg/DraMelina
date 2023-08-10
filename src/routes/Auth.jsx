@@ -16,15 +16,28 @@ import Lipoescultura from '../components/surguryComp/Lipoescultura';
 import Lipoabdominoplastia from '../components/surguryComp/Lipoabdominoplastia';
 import BrazilianButtLift from '../components/surguryComp/BrazilianButtLift';
 import { Testimonial } from '../pages/Testimonial';
+import ScrollTop from '../components/ScrollTop';
+import Navbar from '../components/Navbar';
+import AumentoMa from '../components/surgery/AumentoMa';
+import ReduccionM from '../components/surgery/ReduccionM';
+import LevantamientM from '../components/surgery/LevantamientM';
 
 
 
 const Auth = () => {
+
+
+
+  
   return (
     <div>
 
 
     <BrowserRouter>
+
+    <ScrollTop/>
+
+    <Navbar/>
 
       <Routes>
 
@@ -39,6 +52,13 @@ const Auth = () => {
         <Route path="/DraMelina/procedimientos/lipoescultura" element={<Lipoescultura />}></Route>
         <Route path="/DraMelina/procedimientos/lipoabdominoplastia" element={<Lipoabdominoplastia />}></Route>
         <Route path="/DraMelina/procedimientos/brazilianButtLift" element={<BrazilianButtLift />}></Route>
+
+        <Route path="/DraMelina/procedimientos/aumento-mamario" element={<AumentoMa/>}></Route>
+        <Route path="/DraMelina/procedimientos/reduccion-mamario" element={<ReduccionM/>}></Route>
+        <Route path="/DraMelina/procedimientos/levantamiento-mamario" element={<LevantamientM/>}></Route>
+
+
+
 
         <Route path="/DraMelina/testimonios" element={<Testimonial />}></Route>
         <Route path="/DraMelina/contact" element={<Contact />}></Route>

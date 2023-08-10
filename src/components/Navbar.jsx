@@ -32,11 +32,11 @@ const toggle = `togglingOff ${toggleOn ? "togglingMenu" : ""}`
 </div>
 
     <ul className={toggle}>
-    <li className="nav-item"> <Link exact="true" to="/DraMelina/" activeclassname="active" >  Home</Link></li>
-         <li className="nav-item"> <Link to="/DraMelina/doctor"  >  Doctora</Link></li>
-         <li className="nav-item"> <Link to="/DraMelina/procedimientos"  > Procedimientos</Link></li>
-         <li className="nav-item"> <Link to="/DraMelina/testimonios" >  Testimonios</Link></li>
-         <li className="nav-item"> <Link to="/DraMelina/contact" >  Contacto</Link></li>
+    <li className="nav-item"> <Link  onClick={toggleMenu} exact="true" to="/DraMelina/" activeclassname="active" >  Home</Link></li>
+         <li className="nav-item"> <Link onClick={toggleMenu} to="/DraMelina/doctor"  >  Doctora</Link></li>
+         <li className="nav-item"> <Link onClick={toggleMenu} to="/DraMelina/procedimientos"  > Procedimientos</Link></li>
+         <li className="nav-item"> <Link onClick={toggleMenu} to="/DraMelina/testimonios" >  Testimonios</Link></li>
+         <li className="nav-item"> <Link onClick={toggleMenu} to="/DraMelina/contact" >  Contacto</Link></li>
 
 
        </ul>

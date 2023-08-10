@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Ubication from '../components/Ubication'
 
 const Contact = () => {
@@ -7,7 +6,6 @@ const Contact = () => {
 
     <>
 
-    <Navbar/>
     <div className="contacto">
     <i className="bi bi-clipboard2-fill"></i>
 <label>CONTACTANOS</label>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Parallax, Background } from 'react-parallax';
-import Navbar from '../components/Navbar';
 import Ubication from '../components/Ubication';
 import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
@@ -23,7 +22,6 @@ const Home = () => {
 
     <>
 
-<Navbar/>
 
 <header className="">
 
