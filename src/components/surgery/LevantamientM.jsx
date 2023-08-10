@@ -10,7 +10,7 @@ const LevantamientM = () => {
     
     <main className="headerInfo">
       <article className="position-relative w-100 bg-secondary">
-      <img src="img/sen/seno.jpg" 
+      <img src="../img/sen/seno.jpg" 
     alt="" />
 
         <h2>Levantamient Mamario</h2>
