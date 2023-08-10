@@ -82,13 +82,13 @@ const DragImageButt = () => {
         <div ref={imageContainer} className="containerImage" >
                 
 
-        <img src="img/comparFiguras/comparb.jpg"
+        <img src="../img/comparFiguras/comparB.jpg"
             alt="foto-1"
             className="w-100 h-100 object-fit-contain"
         />
     
         <img style={{ filter: "grayscale(0%)", clipPath: `polygon(0 0, ${imageReveal * 100}% 0,${imageReveal * 100}% 100%, 0 100%)` }}
-    src="img/comparFiguras/comparb2.jpg"
+    src="../img/comparFiguras/comparb2.jpg"
     alt="foto-2"
             className="changeImage"
         />
