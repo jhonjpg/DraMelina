@@ -10,7 +10,7 @@ const ReduccionM = () => {
     
     <main className="headerInfo">
       <article className="position-relative w-100 bg-secondary">
-      <img src="/img/sen/senos3.jpg" 
+      <img src="img/sen/senos3.jpg" 
     alt="" />
 
 

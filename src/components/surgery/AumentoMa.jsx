@@ -10,7 +10,7 @@ const AumentoMa = () => {
     
     <main className="headerInfo">
       <article className="position-relative w-100 bg-secondary">
-      <img src="/img/sen/senos2.jpg" 
+      <img src="img/sen/senos2.jpg" 
     alt="" />
 
 
